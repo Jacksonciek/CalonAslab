@@ -40,23 +40,23 @@ export const Skills = () => {
               <p className="w-[70%]">I have basic on these skills and there are a lot of projects that I have been done using these softwares as my development skills</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Image1" />
                   <h5 className="text-white">Adobe Photoshop</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter2} alt="Image2" />
                   <h5 className="text-white">Adobe Premiere Pro</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter3} alt="Image3" />
                   <h5 className="text-white">Adobe Lightroom</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Image4" />
                   <h5 className="text-white">Web Development</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="Image5" />
                   <h5 className="text-white">Microsoft Office</h5>
                 </div>
               </Carousel>
@@ -64,7 +64,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="Image8" />
     </section>
   )
 }
