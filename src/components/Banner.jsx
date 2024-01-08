@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profile from "../assets/img/profile.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
-import { motion } from "framer-motion";
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
@@ -47,18 +45,7 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
-  const navbarAnimation = {
-    hidden: {
-      y: -100,
-    },
-    show: {
-      y: 0,
-      transition: {
-        delay: 1.7,
-        duration: 0.5,
-      },
-    },
-  };
+  
   return (
     <section className="banner bg-[#0800E1]" id="home">
       <Container>
